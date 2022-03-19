@@ -24,6 +24,8 @@
 #include "spi.h"
 #include "can.h"
 #include "lcd.h"
+#include "cli.h"
+
 
 bool hwInit(void);
 

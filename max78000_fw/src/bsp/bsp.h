@@ -22,6 +22,7 @@
 
 #include "MAX78000/gpio.h"
 #include "MAX78000/rtc.h"
+#include "MAX78000/uart.h"
 
 
 bool bspInit(void);

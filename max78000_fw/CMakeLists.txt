@@ -47,6 +47,10 @@ add_executable(${EXECUTABLE}
   src/lib/PeriphDrivers/Source/RTC/rtc_me17.c
   src/lib/PeriphDrivers/Source/RTC/rtc_reva.c  
 
+  src/lib/PeriphDrivers/Source/UART/uart_ai85.c
+  src/lib/PeriphDrivers/Source/UART/uart_common.c
+  src/lib/PeriphDrivers/Source/UART/uart_revb.c  
+
 )
 
 
