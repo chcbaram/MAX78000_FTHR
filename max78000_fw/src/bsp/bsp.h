@@ -20,8 +20,8 @@
 #include "mxc_delay.h"
 #include "mxc_device.h"
 
-#include "gpio.h"
-
+#include "MAX78000/gpio.h"
+#include "MAX78000/rtc.h"
 
 
 bool bspInit(void);

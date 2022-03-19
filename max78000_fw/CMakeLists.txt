@@ -44,6 +44,9 @@ add_executable(${EXECUTABLE}
   src/lib/PeriphDrivers/Source/GPIO/gpio_ai85.c
   src/lib/PeriphDrivers/Source/GPIO/gpio_reva.c
 
+  src/lib/PeriphDrivers/Source/RTC/rtc_me17.c
+  src/lib/PeriphDrivers/Source/RTC/rtc_reva.c  
+
 )
 
 
@@ -60,6 +63,7 @@ target_include_directories(${EXECUTABLE} PRIVATE
 
   src/bsp/cmsis/device/Include
   src/bsp/cmsis/Include
+  src/lib/PeriphDrivers/Include
   src/lib/PeriphDrivers/Include/MAX78000
 )
 
